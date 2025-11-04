@@ -23,7 +23,7 @@ The project leverages different libraries, including **Pandas** for data manipul
 
   * Python (3.9+ recommended)
   * `pip` (Python package installer)
-  * A (free) **TMDB API Key** for fetching movie posters. You can get one by creating an account and registering for an API key on their [Getting Started](https://developer.themoviedb.org/docs/getting-started) page.
+  * A **TMDB API Key** for fetching movie posters. You can get one by creating an account and registering for an API key on their [Getting Started](https://developer.themoviedb.org/docs/getting-started) page.
 
 ### b. Setup & Installation
 
@@ -60,7 +60,7 @@ The project leverages different libraries, including **Pandas** for data manipul
       * `08_build_final_files.ipynb`: Creates the final matrices and Faiss indices in `data/final/`.
 
 5.  **Add TMDB API Key:**
-    Open the `app.py` file and replace the placeholder value for `TMDB_API_KEY`. Refer to this [link](https://developer.themoviedb.org/docs/getting-started) for instructions:
+    Open the `app.py` file and replace the placeholder value for `TMDB_API_KEY`:
 
     ```python
     # Near the top of app.py
