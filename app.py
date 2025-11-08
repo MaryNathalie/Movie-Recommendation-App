@@ -24,7 +24,7 @@ FAISS_BIN_PEOPLE = os.path.join(DATA_DIR, FINAL_DIR, 'people_faiss.bin')
 
 SVD_PKL = os.path.join(DATA_DIR, MODEL_DIR, 'best_SVD_model.pkl')
 
-TMDB_API_KEY = "7a238d6af7cb922d5ecf570d17419274"
+TMDB_API_KEY = "YOUR_API_KEY_GOES_HERE" 
 POSTER_BASE_URL = "https://image.tmdb.org/t/p/w342" 
 DEFAULT_POSTER = "https://placehold.co/342x513/CCCCCC/000000?text=No+Poster" # Placeholder
 
@@ -519,3 +519,4 @@ st.markdown("---")
 st.caption("Feel free to contact me in my [LinkedIn](https://www.linkedin.com/in/mary-nathalie-dela-cruz/) profile.")
 
 st.caption("Movie data and Ratings data from TMDB (1990-2020). User profiles based on top raters.")
+
